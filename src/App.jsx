@@ -1,0 +1,25 @@
+import {
+  Navbar,
+  Home,
+  About,
+  Contact,
+  Course,
+  Footer,
+  Teacher,
+} from './components/index';
+
+function App() {
+  return (
+    <div className="font-Poppins bg-solitude">
+      <Navbar />
+      <Home />
+      <About />
+      <Course />
+      <Teacher />
+      <Contact />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
